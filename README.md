@@ -1,2 +1,2 @@
 # GOTE-chrome-extension
-Gentle on the Eyes chrome extension
+Gentle on the Eyes Chrome extension
