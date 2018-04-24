@@ -1,2 +1,2 @@
-# CV-chrome-extension
-Comfortable vision chrome extension
+# cvce
+comfortable vision chrome extension
