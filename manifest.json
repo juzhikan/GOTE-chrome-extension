@@ -1,0 +1,31 @@
+{
+  "name": "CV Extensions",
+  "description" : "Comfortable vision Chrome extension",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "extensions.html",
+    "default_title": "",
+    "default_icon": "extensions.png"
+  },
+  "manifest_version": 2,
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "Opens extensions.html"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["./baidu/baidu.css"],
+      "js": ["baidu/baidu.js"]
+    }
+  ],
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ]
+}
